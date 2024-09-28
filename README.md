@@ -25,30 +25,7 @@ Pastikan Anda sudah menginstal beberapa alat berikut di sistem Anda:
 - **npm** (v6 atau lebih baru)
 - **DFINITY SDK (dfx)**. Ikuti [panduan instalasi dfx](https://smartcontracts.org/docs/quickstart/quickstart.html#download-and-install) jika belum diinstal.
 
-## Struktur Proyek
-
-```bash
-nft-wallet-icp/
-│
-├── backend/
-│   ├── src/
-│   │   ├── nft_wallet.mo       # File kontrak pintar untuk wallet NFT
-│   │   ├── nft_storage.mo      # File kontrak pintar untuk penyimpanan NFT
-│   ├── dfx.json                # Konfigurasi DFX
-│   ├── canister_ids.json       # ID Canister setelah deploy
-│
-├── frontend/
-│   ├── src/
-│   │   ├── index.html          # Halaman utama frontend
-│   │   ├── index.js            # Logika aplikasi frontend
-│   │   ├── styles.css          # Styling untuk aplikasi
-│   ├── package.json            # Dependencies untuk frontend
-│   └── webpack.config.js       # Konfigurasi Webpack
-│
-└── README.md                   # Dokumentasi proyek
-```
-
-## Cara Menjalankan Proyek
+## Menjalankan Proyek
 
 Berikut adalah langkah-langkah untuk menjalankan proyek **NFT Wallet ICP** di lokal Anda:
 
@@ -57,8 +34,8 @@ Berikut adalah langkah-langkah untuk menjalankan proyek **NFT Wallet ICP** di lo
 Clone repository ini ke sistem Anda:
 
 ```bash
-git clone https://github.com/Mknallisa/Mikaila
-cd Mikaila
+git clone https://github.com/Shodscell/crispy-icp-nft-wallet/
+cd cryspy-icp-nft-wallet
 ```
 
 ### 2. Install Dependencies
