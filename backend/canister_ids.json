@@ -1,0 +1,10 @@
+{
+  "nft_wallet": {
+    "local": "rrkah-fqaaa-aaaaa-aaaaq-cai",  // Canister ID untuk nft_wallet di lingkungan lokal
+    "ic": "replace-with-canister-id-on-ic"   // Canister ID untuk nft_wallet di lingkungan ICP production (jika di-deploy)
+  },
+  "nft_storage": {
+    "local": "ryjl3-tyaaa-aaaaa-aaaba-cai",  // Canister ID untuk nft_storage di lingkungan lokal
+    "ic": "replace-with-canister-id-on-ic"   // Canister ID untuk nft_storage di lingkungan ICP production (jika di-deploy)
+  }
+}
