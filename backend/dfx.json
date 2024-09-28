@@ -1,0 +1,19 @@
+{
+  "canisters": {
+    "nft_wallet": {
+      "main": "src/nft_wallet.mo",
+      "type": "motoko"
+    },
+    "nft_storage": {
+      "main": "src/nft_storage.mo",
+      "type": "motoko"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
