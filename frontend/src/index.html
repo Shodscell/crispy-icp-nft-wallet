@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NFT Wallet ICP</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>NFT Wallet ICP</h1>
+
+    <div class="mint-section">
+      <h3>Mint New NFT</h3>
+      <input type="text" id="nft-id" placeholder="NFT ID" />
+      <input type="text" id="nft-metadata" placeholder="NFT Metadata" />
+      <button id="mint-button">Mint NFT</button>
+    </div>
+
+    <div class="nft-collection">
+      <h3>Your NFT Collection</h3>
+      <div id="nft-list"></div>
+    </div>
+
+    <div class="transfer-section">
+      <h3>Transfer NFT</h3>
+      <input type="text" id="transfer-nft-id" placeholder="NFT ID to Transfer" />
+      <input type="text" id="transfer-principal" placeholder="Receiver Principal ID" />
+      <button id="transfer-button">Transfer NFT</button>
+    </div>
+  </div>
+
+  <script src="bundle.js"></script>
+</body>
+</html>
