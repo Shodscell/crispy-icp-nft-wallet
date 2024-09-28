@@ -1,11 +1,11 @@
 {
   "canisters": {
     "nft_wallet": {
-      "main": "src/nft_wallet.mo",
+      "main": "src/nft-wallet.mo",
       "type": "motoko"
     },
     "nft_storage": {
-      "main": "src/nft_storage.mo",
+      "main": "src/nft-storage.mo",
       "type": "motoko"
     }
   },
